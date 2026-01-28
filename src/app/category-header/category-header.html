@@ -1,0 +1,8 @@
+<button matButton [matMenuTriggerFor]="menu">Sortieren</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="sendId('alle')"> Alle Produkte anzeigen </button>
+    @for (cat of categories; track cat.id) {
+        <button mat-menu-item (click)="sendId(cat.name)" > {{ cat.icon }} Nach {{ cat.name }} sortieren</button>
+    }
+</mat-menu>
+

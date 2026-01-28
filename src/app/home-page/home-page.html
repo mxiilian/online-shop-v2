@@ -1,0 +1,20 @@
+<app-category-header (sendCategoryId)="sortByCategory($event)" ></app-category-header>
+
+<button (click)="sortAcc()">Preis aufsteigend Sortieren</button>
+<button (click)="sortDec()" >Preis absteigend Sortieren</button>
+<button (click)="sortReset()" >Sortierung zurücksetzen</button>
+<input type="text" placeholder="Suche" [(ngModel)]="searchString">
+<div>
+    <input type="range" min="0" max="{{ mostExpensiveProductPrice }}" [(ngModel)]="priceSliderValue">
+    <p> {{ priceSliderValue }} </p>
+</div>
+<div style="display: flex; align-content: flex-start; flex-wrap: wrap;">
+    @for (prod of (products | filter: searchString: priceSliderValue); track prod.id ) {
+        <div>
+            <app-product-frame (click)="navigateToProduct(prod.id)" style="cursor: pointer;" [product]="prod"/>
+            <button (click)="addProductToShoppingCart(prod)"> Zu Warenkorb hinzufügen </button>
+        </div>
+    }
+</div>
+
+<app-shopping-cart></app-shopping-cart>

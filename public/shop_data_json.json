@@ -1,0 +1,392 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Gaming Maus",
+      "category": "Elektronik",
+      "subcategory": "Gaming",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 45,
+      "rating": 4.7,
+      "reviewCount": 234,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400",
+        "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=400"
+      ],
+      "description": "Hochpräzise Gaming-Maus mit RGB-Beleuchtung und anpassbaren DPI-Einstellungen bis 16000 DPI.",
+      "features": [
+        "Bis zu 16000 DPI",
+        "RGB-Beleuchtung",
+        "6 programmierbare Tasten",
+        "Bis zu 70 Stunden Akkulaufzeit"
+      ],
+      "brand": "TechGear",
+      "tags": ["gaming", "wireless", "rgb", "neu"]
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "category": "Elektronik",
+      "subcategory": "Gaming",
+      "price": 129.99,
+      "originalPrice": null,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 23,
+      "rating": 4.9,
+      "reviewCount": 567,
+      "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400"
+      ],
+      "description": "Mechanische Tastatur mit Cherry MX Red Switches für präzises Gaming und Tippen.",
+      "features": [
+        "Cherry MX Red Switches",
+        "N-Key Rollover",
+        "Aluminiumgehäuse",
+        "Abnehmbare USB-C Kabel"
+      ],
+      "brand": "KeyMaster",
+      "tags": ["gaming", "mechanical", "bestseller"]
+    },
+    {
+      "id": 3,
+      "name": "4K Webcam",
+      "category": "Elektronik",
+      "subcategory": "Zubehör",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 12,
+      "rating": 4.5,
+      "reviewCount": 89,
+      "image": "https://images.unsplash.com/photo-1585868887875-baa85d8c607f?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1585868887875-baa85d8c607f?w=400"
+      ],
+      "description": "Professionelle 4K Webcam mit Autofokus und integriertem Mikrofon für Streaming und Videokonferenzen.",
+      "features": [
+        "4K Auflösung bei 30fps",
+        "Autofokus",
+        "Stereo-Mikrofon",
+        "Weitwinkelobjektiv 90°"
+      ],
+      "brand": "StreamPro",
+      "tags": ["streaming", "4k", "sale"]
+    },
+    {
+      "id": 4,
+      "name": "USB-C Hub",
+      "category": "Elektronik",
+      "subcategory": "Zubehör",
+      "price": 49.99,
+      "originalPrice": null,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 78,
+      "rating": 4.3,
+      "reviewCount": 145,
+      "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400"
+      ],
+      "description": "7-in-1 USB-C Hub mit HDMI, USB 3.0, SD-Kartenleser und mehr.",
+      "features": [
+        "7 Ports",
+        "4K HDMI Ausgang",
+        "100W Power Delivery",
+        "USB 3.0 mit 5Gbps"
+      ],
+      "brand": "ConnectPlus",
+      "tags": ["usb-c", "adapter"]
+    },
+    {
+      "id": 5,
+      "name": "Noise Cancelling Kopfhörer",
+      "category": "Audio",
+      "subcategory": "Kopfhörer",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 34,
+      "rating": 4.8,
+      "reviewCount": 892,
+      "image": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400"
+      ],
+      "description": "Premium Over-Ear Kopfhörer mit aktiver Geräuschunterdrückung und 40 Stunden Akkulaufzeit.",
+      "features": [
+        "Active Noise Cancellation",
+        "40h Akkulaufzeit",
+        "Bluetooth 5.2",
+        "Faltbares Design"
+      ],
+      "brand": "AudioMax",
+      "tags": ["audio", "wireless", "anc", "bestseller"]
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Lautsprecher",
+      "category": "Audio",
+      "subcategory": "Lautsprecher",
+      "price": 89.99,
+      "originalPrice": null,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 56,
+      "rating": 4.6,
+      "reviewCount": 423,
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400"
+      ],
+      "description": "Wasserdichter Bluetooth-Lautsprecher mit 360° Sound und 20 Stunden Spielzeit.",
+      "features": [
+        "IPX7 Wasserdicht",
+        "360° Sound",
+        "20h Akkulaufzeit",
+        "Freisprechfunktion"
+      ],
+      "brand": "SoundWave",
+      "tags": ["audio", "bluetooth", "outdoor"]
+    },
+    {
+      "id": 7,
+      "name": "Smart Watch Pro",
+      "category": "Wearables",
+      "subcategory": "Smartwatch",
+      "price": 399.99,
+      "originalPrice": 449.99,
+      "currency": "EUR",
+      "inStock": false,
+      "stockCount": 0,
+      "rating": 4.7,
+      "reviewCount": 1234,
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400"
+      ],
+      "description": "Intelligente Sportuhr mit GPS, Pulsmesser und 7 Tagen Akkulaufzeit.",
+      "features": [
+        "GPS + GLONASS",
+        "Herzfrequenzmessung",
+        "7 Tage Akkulaufzeit",
+        "5ATM Wasserdicht"
+      ],
+      "brand": "FitTech",
+      "tags": ["wearable", "fitness", "gps", "ausverkauft"]
+    },
+    {
+      "id": 8,
+      "name": "Fitness Tracker",
+      "category": "Wearables",
+      "subcategory": "Fitness",
+      "price": 79.99,
+      "originalPrice": null,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 91,
+      "rating": 4.4,
+      "reviewCount": 678,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400"
+      ],
+      "description": "Kompakter Fitness-Tracker mit Schlafanalyse und 14 Tagen Akkulaufzeit.",
+      "features": [
+        "Schlafanalyse",
+        "14 Tage Akkulaufzeit",
+        "Schritte & Kalorien",
+        "Wasserdicht"
+      ],
+      "brand": "FitTech",
+      "tags": ["fitness", "tracker", "neu"]
+    },
+    {
+      "id": 9,
+      "name": "Externe SSD 1TB",
+      "category": "Speicher",
+      "subcategory": "SSD",
+      "price": 119.99,
+      "originalPrice": 159.99,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 67,
+      "rating": 4.9,
+      "reviewCount": 2341,
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400"
+      ],
+      "description": "Ultraschnelle externe SSD mit USB-C 3.2 Gen 2 und Lese-/Schreibgeschwindigkeiten bis zu 1050 MB/s.",
+      "features": [
+        "1TB Speicherkapazität",
+        "Bis zu 1050 MB/s",
+        "USB-C 3.2 Gen 2",
+        "Kompaktes Aluminiumgehäuse"
+      ],
+      "brand": "DataSpeed",
+      "tags": ["storage", "ssd", "sale", "bestseller"]
+    },
+    {
+      "id": 10,
+      "name": "Portable Powerbank 20000mAh",
+      "category": "Elektronik",
+      "subcategory": "Zubehör",
+      "price": 39.99,
+      "originalPrice": null,
+      "currency": "EUR",
+      "inStock": true,
+      "stockCount": 124,
+      "rating": 4.5,
+      "reviewCount": 567,
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400",
+      "images": [
+        "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400"
+      ],
+      "description": "Hochleistungs-Powerbank mit 20000mAh Kapazität und Schnellladefunktion.",
+      "features": [
+        "20000mAh Kapazität",
+        "USB-C Power Delivery",
+        "2x USB-A Ports",
+        "LED-Anzeige"
+      ],
+      "brand": "ChargeMax",
+      "tags": ["powerbank", "charging"]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik",
+      "slug": "elektronik",
+      "icon": "🖥️",
+      "productCount": 6,
+      "subcategories": ["Gaming", "Zubehör"]
+    },
+    {
+      "id": 2,
+      "name": "Audio",
+      "slug": "audio",
+      "icon": "🎧",
+      "productCount": 2,
+      "subcategories": ["Kopfhörer", "Lautsprecher"]
+    },
+    {
+      "id": 3,
+      "name": "Wearables",
+      "slug": "wearables",
+      "icon": "⌚",
+      "productCount": 2,
+      "subcategories": ["Smartwatch", "Fitness"]
+    },
+    {
+      "id": 4,
+      "name": "Speicher",
+      "slug": "speicher",
+      "icon": "💾",
+      "productCount": 1,
+      "subcategories": ["SSD", "HDD"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 101,
+      "userName": "Max Mustermann",
+      "rating": 5,
+      "title": "Beste Gaming-Maus!",
+      "comment": "Absolut präzise und die RGB-Beleuchtung ist der Hammer. Akku hält ewig!",
+      "date": "2025-01-15",
+      "helpful": 23,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 102,
+      "userName": "Anna Schmidt",
+      "rating": 4,
+      "title": "Sehr gut, aber...",
+      "comment": "Tolle Maus, nur die Software könnte besser sein.",
+      "date": "2025-01-10",
+      "helpful": 8,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "userId": 103,
+      "userName": "Peter Müller",
+      "rating": 5,
+      "title": "Perfekt für Vieltipper",
+      "comment": "Die Cherry MX Red Switches sind ein Traum. Super Verarbeitung!",
+      "date": "2025-01-12",
+      "helpful": 45,
+      "verified": true
+    },
+    {
+      "id": 4,
+      "productId": 5,
+      "userId": 104,
+      "userName": "Sarah Wagner",
+      "rating": 5,
+      "title": "ANC ist unglaublich",
+      "comment": "Die Geräuschunterdrückung funktioniert perfekt. Kann ich nur empfehlen!",
+      "date": "2025-01-08",
+      "helpful": 67,
+      "verified": true
+    }
+  ],
+  "users": [
+    {
+      "id": 101,
+      "name": "Max Mustermann",
+      "email": "max@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 102,
+      "name": "Anna Schmidt",
+      "email": "anna@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 103,
+      "name": "Peter Müller",
+      "email": "peter@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=33"
+    },
+    {
+      "id": 104,
+      "name": "Sarah Wagner",
+      "email": "sarah@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    }
+  ],
+  "cart": {
+    "items": [],
+    "subtotal": 0,
+    "shipping": 0,
+    "tax": 0,
+    "total": 0
+  },
+  "settings": {
+    "currency": "EUR",
+    "language": "de",
+    "shippingCost": 4.99,
+    "freeShippingThreshold": 50,
+    "taxRate": 0.19
+  }
+}

@@ -1,0 +1,9 @@
+<mat-divider></mat-divider>
+@for (prod of shoppingCartItems; track prod) {
+    <div style="display: flex;">
+        <p> {{ prod[0].name }} | {{ prod[0].price }} </p>
+        <button (click)="removeFromShoppingCart(prod)"> Aus Einkaufswage entfernen </button>
+    </div>
+}
+<mat-divider></mat-divider>
+<p> {{ shoppingCartSum }} </p>

@@ -1,0 +1,18 @@
+export interface Product {
+    id: number,
+    name: string,
+    category: string,
+    price: number,
+    originalPrice: number,
+    currency: string,
+    inStock: boolean,
+    stockCount: number,
+    rating: number,
+    reviewCount: number,
+    image: string,
+    images: string[],
+    description: string,
+    features: string[],
+    brand: string,
+    tags: string[],
+}

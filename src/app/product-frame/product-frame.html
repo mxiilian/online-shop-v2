@@ -1,0 +1,7 @@
+<div style="width: 300px;">
+    <h1> {{ product.name }} </h1>
+    <p> {{ product.price }} </p>
+    @if (product.originalPrice) { 
+        <p>Vorher: {{ product.originalPrice }}</p> 
+    }
+</div>
